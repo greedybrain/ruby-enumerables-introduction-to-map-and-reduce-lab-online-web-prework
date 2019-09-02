@@ -18,7 +18,8 @@ end
 # REDUCE FUNCTIONS
 
 def reduce_to_total(source_array, starting_point = 0)
-    source_array.reduce{ |a, b| a + b }
+  new = starting_point
+  source_array.reduce{ |a, b| a + b }
 end
 
 def reduce_to_total(source_array, starting_point)
