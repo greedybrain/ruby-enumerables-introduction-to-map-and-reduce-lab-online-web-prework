@@ -19,11 +19,7 @@ end
 
 def reduce_to_total(source_array, starting_point = 0)
   new = starting_point
-  i = 0
-  while i < source_array.length do
-    new += source_array[i]
-    i += 1
-  end
+  source_array.reduce(new){ |a, b| a+b }
   return new
 end
 
