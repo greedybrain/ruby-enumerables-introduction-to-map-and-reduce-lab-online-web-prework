@@ -17,11 +17,7 @@ end
 
 # REDUCE FUNCTIONS
 def reduce_to_total(source_array)
-  if starting_point
-    source_array.reduce(starting_point) {|a, b| a + b}
-  else
     source_array.reduce{ |a, b| a + b }
-  end
 end
 
 
