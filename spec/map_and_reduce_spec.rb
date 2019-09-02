@@ -39,7 +39,7 @@ describe 'my own reduce-like methods' do
     it "reduces correctly" do
       source_array = [1,2,3]
       starting_point = 100
-      expect(reduce_to_total(source_array, starting_point)).to eq(106)
+      expect(reduce_to_total_with_start(source_array, starting_point)).to eq(106)
     end
   end
 
