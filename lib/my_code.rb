@@ -16,7 +16,7 @@ def map_to_square(source_array)
 end
 
 # REDUCE FUNCTIONS
-def reduce_to_total(source_array)
+def reduce_to_no_start(source_array)
   source_array.reduce { :+ }
 end
 
