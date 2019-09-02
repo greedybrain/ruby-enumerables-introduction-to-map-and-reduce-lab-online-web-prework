@@ -20,17 +20,5 @@ def reduce_to_total(source_array, starting_point)
   source_array.reduce(starting_point) {|a, b| a + b}
 end
 
-# def reduce_to_all_true(source_array)
-#   source_array.reduce{|i| i}
-# end
-
-# def reduce_to_any_true(source_array)
-#   source_array.reduce{|i| i ? i : !i}
-# end
-
-# def reduce_to_any_true(source_array)
-#   source_array.reduce{ |i| i ? !i : i }
-# end
-
 
 
